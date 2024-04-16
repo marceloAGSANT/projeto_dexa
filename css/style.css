@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   --yellow: #1267A6;
-  --black:#111;
+  --black:#1267A6;
   --white:#fff;
   --light-color:#666;
   --light-bg:#eee;
@@ -450,6 +450,15 @@ section {
   right: 7rem;
 }
 
+.banner-section h3 {
+  color: #1267A6; /* Substitua #FF0000 pela cor desejada, por exemplo, "red" para vermelho */
+}
+
+.banner-section p {
+  color: #000000; /* Substitua #000000 pela cor desejada, por exemplo, "black" para preto */
+}
+
+
 .about .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,7 +478,7 @@ section {
 }
 
 .about .row .video video {
-  width: 100%;
+  width: 30%;
 }
 
 .about .row .content {
@@ -485,10 +494,11 @@ section {
 }
 
 .about .row .content p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--light-color);
   line-height: 2;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .about .box-container {
